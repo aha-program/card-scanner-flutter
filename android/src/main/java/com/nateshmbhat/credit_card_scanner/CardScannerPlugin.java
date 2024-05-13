@@ -3,6 +3,7 @@ package com.nateshmbhat.credit_card_scanner;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 
@@ -80,6 +81,7 @@ public class CardScannerPlugin implements FlutterPlugin, MethodCallHandler, Acti
 
     void showCameraActivity(MethodCall call) {
         Map<String, String> map = (Map<String, String>) call.arguments;
+        Log.println(Log.INFO, "showCameraActivity", "showCameraActivity called with arguments: " + map.toString());
         CardScannerOptions cardScannerOptions = new CardScannerOptions(map);
         Intent intent = new Intent(context, CardScannerCameraActivity.class);
         intent.putExtra(CardScannerCameraActivity.CARD_SCAN_OPTIONS, cardScannerOptions);

@@ -37,7 +37,7 @@ data class CardScannerOptions(
     )
 
     constructor(configMap: Map<String, String>) : this(
-        scanTextTitle = configMap[ParcelKeys.scanTextTitle.value] ?: "Scan your card",
+        scanTextTitle = configMap[ParcelKeys.scanTextTitle.value].toString(),
         scanExpiryDate = configMap[ParcelKeys.scanExpiryDate.value]?.toBoolean() ?: true,
         scanCardHolderName = configMap[ParcelKeys.scanCardHolderName.value]?.toBoolean() ?: false,
         initialScansToDrop = configMap[ParcelKeys.initialScansToDrop.value]?.toInt() ?: 1,
