@@ -35,6 +35,7 @@ public class CardScannerOptions {
         cardScannerTimeOut: Int,
         enableDebugLogs: Bool,
         possibleCardHolderNamePositions: [String]
+        prompt: String
     ) {
         self.scanCardHolderName = scanCardHolderName
         self.scanExpiryDate = scanExpiryDate
@@ -47,6 +48,7 @@ public class CardScannerOptions {
         self.cardScannerTimeOut = cardScannerTimeOut
         self.enableDebugLogs = enableDebugLogs
         self.possibleCardHolderNamePositions = possibleCardHolderNamePositions
+        self.prompt = prompt
     }
     
     init(from options: [String: String]?) {
@@ -95,7 +97,7 @@ public class CardScannerOptions {
                 self.possibleCardHolderNamePositions = possibleCardHolderNamePositions.components(separatedBy: ",")
             }
             
-            if let prompt = options["prompt"] {
+            if let prompt = options["scanTextTitle"] {
                 self.prompt = prompt
             }
             

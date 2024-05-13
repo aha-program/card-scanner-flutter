@@ -18,7 +18,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a46389b-fab5-404f-8e8d-a7bbdeb7a241" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/credit_card_scanner/scanner_core/models/CardScannerOptions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/credit_card_scanner/scanner_core/models/CardScannerOptions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/credit_card_scanner/CardScannerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/credit_card_scanner/CardScannerPlugin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

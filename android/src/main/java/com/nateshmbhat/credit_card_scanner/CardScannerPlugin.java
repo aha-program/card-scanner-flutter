@@ -81,7 +81,6 @@ public class CardScannerPlugin implements FlutterPlugin, MethodCallHandler, Acti
 
     void showCameraActivity(MethodCall call) {
         Map<String, String> map = (Map<String, String>) call.arguments;
-        Log.println(Log.INFO, "showCameraActivity", "showCameraActivity called with arguments: " + map.toString());
         CardScannerOptions cardScannerOptions = new CardScannerOptions(map);
         Intent intent = new Intent(context, CardScannerCameraActivity.class);
         intent.putExtra(CardScannerCameraActivity.CARD_SCAN_OPTIONS, cardScannerOptions);
