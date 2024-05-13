@@ -2,6 +2,7 @@ package com.nateshmbhat.credit_card_scanner.scanner_core.models
 
 import android.os.Parcel
 import android.os.Parcelable
+import android.util.Log
 import com.google.mlkit.vision.text.Text
 
 //@author nateshmbhat created on 29,June,2020
@@ -37,7 +38,6 @@ data class CardScannerOptions(
     )
 
     constructor(configMap: Map<String, String>) : this(
-        scanTextTitle = configMap[ParcelKeys.scanTextTitle.value].toString(),
         scanExpiryDate = configMap[ParcelKeys.scanExpiryDate.value]?.toBoolean() ?: true,
         scanCardHolderName = configMap[ParcelKeys.scanCardHolderName.value]?.toBoolean() ?: false,
         initialScansToDrop = configMap[ParcelKeys.initialScansToDrop.value]?.toInt() ?: 1,
@@ -45,8 +45,7 @@ data class CardScannerOptions(
             ?: 11,
         cardHolderNameBlackListedWords = configMap[ParcelKeys.cardHolderNameBlackListedWords.value]?.split(
             ','
-        )
-            ?: listOf(),
+        ) ?: listOf(),
         considerPastDatesInExpiryDateScan = configMap[ParcelKeys.considerPastDatesInExpiryDateScan.value]?.toBoolean()
             ?: false,
         maxCardHolderNameLength = configMap[ParcelKeys.maxCardHolderNameLength.value]?.toInt()
@@ -56,8 +55,8 @@ data class CardScannerOptions(
         enableDebugLogs = configMap[ParcelKeys.enableDebugLogs.value]?.toBoolean() ?: false,
         possibleCardHolderNamePositions = configMap[ParcelKeys.possibleCardHolderNamePositions.value]?.split(
             ','
-        )
-            ?: listOf(CardHolderNameScanPositions.belowCardNumber.value)
+        ) ?: listOf(CardHolderNameScanPositions.belowCardNumber.value),
+        scanTextTitle = configMap[ParcelKeys.scanTextTitle.value].toString(),
     )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
@@ -72,6 +71,7 @@ data class CardScannerOptions(
         parcel.writeInt(cardScannerTimeOut)
         parcel.writeByte(if (enableDebugLogs) 1 else 0)
         parcel.writeStringList(possibleCardHolderNamePositions)
+        parcel.writeString(scanTextTitle)
     }
 
     override fun describeContents(): Int {
@@ -81,18 +81,19 @@ data class CardScannerOptions(
     companion object CREATOR : Parcelable.Creator<CardScannerOptions> {
 
         enum class ParcelKeys(val value: String) {
-            scanTextTitle("scanTextTitle"),
-            scanExpiryDate("scanExpiryDate"),
-            scanCardHolderName("scanCardHolderName"),
-            initialScansToDrop("initialScansToDrop"),
-            validCardsToScanBeforeFinishingScan("validCardsToScanBeforeFinishingScan"),
-            cardHolderNameBlackListedWords("cardHolderNameBlackListedWords"),
-            considerPastDatesInExpiryDateScan("considerPastDatesInExpiryDateScan"),
-            maxCardHolderNameLength("maxCardHolderNameLength"),
-            enableLuhnCheck("enableLuhnCheck"),
-            cardScannerTimeOut("cardScannerTimeOut"),
-            enableDebugLogs("enableDebugLogs"),
-            possibleCardHolderNamePositions("possibleCardHolderNamePositions")
+            scanExpiryDate("scanExpiryDate"), scanCardHolderName("scanCardHolderName"), initialScansToDrop(
+                "initialScansToDrop"
+            ),
+            validCardsToScanBeforeFinishingScan("validCardsToScanBeforeFinishingScan"), cardHolderNameBlackListedWords(
+                "cardHolderNameBlackListedWords"
+            ),
+            considerPastDatesInExpiryDateScan("considerPastDatesInExpiryDateScan"), maxCardHolderNameLength(
+                "maxCardHolderNameLength"
+            ),
+            enableLuhnCheck("enableLuhnCheck"), cardScannerTimeOut("cardScannerTimeOut"), enableDebugLogs(
+                "enableDebugLogs"
+            ),
+            possibleCardHolderNamePositions("possibleCardHolderNamePositions"), scanTextTitle("scanTextTitle"),
         }
 
         override fun createFromParcel(parcel: Parcel): CardScannerOptions {
