@@ -34,7 +34,7 @@ public class CardScannerOptions {
         enableLuhnCheck: Bool,
         cardScannerTimeOut: Int,
         enableDebugLogs: Bool,
-        possibleCardHolderNamePositions: [String]
+        possibleCardHolderNamePositions: [String],
         prompt: String
     ) {
         self.scanCardHolderName = scanCardHolderName
