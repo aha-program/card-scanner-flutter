@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/src/main/res/layout/card_scanner_camera_activity.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a46389b-fab5-404f-8e8d-a7bbdeb7a241" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/appInsightsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../credit_card_scanner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/card_scanner/CardScannerCameraActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/card_scanner/CardScannerPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/card_scanner/SingleFrameCardScanner.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/card_scanner/logger/Logger.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/card_scanner/scanner_core/CardScanner.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/card_scanner/scanner_core/constants/Constants.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/card_scanner/scanner_core/models/CardDetails.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/card_scanner/scanner_core/models/CardScannerOptions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/card_scanner/scanner_core/models/CommonModels.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/card_scanner/scanner_core/optimizer/CardDetailsScanOptimizer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/card_scanner/scanner_core/scan_filters/CardHolderNameFilter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/card_scanner/scanner_core/scan_filters/CardNumberFilter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nateshmbhat/card_scanner/scanner_core/scan_filters/ExpiryDateFilter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/card_scanner_camera_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/card_scanner_camera_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../example/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/android/app/src/main/java/com/nateshmbhat/card_scanner_example/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../example/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../example/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/../example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../example/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/lib/scan_option_configure_widget/scan_option_configure_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../example/lib/scan_option_configure_widget/scan_option_configure_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../example/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../example/web/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../example/web/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Classes/CardScannerPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Classes/CardScannerPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Classes/Logger/Logger.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Classes/Logger/Logger.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Classes/Scanner Core/Constants/Constants.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Classes/Scanner Core/Constants/Constants.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Classes/Scanner Core/Models/CardDetails.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Classes/Scanner Core/Models/CardDetails.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Classes/Scanner Core/Models/CommonModels.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Classes/Scanner Core/Models/CommonModels.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Classes/Scanner Core/Scan Filters/CardHolderNameFilter.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Classes/Scanner Core/Scan Filters/CardHolderNameFilter.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Classes/Scanner Core/Scan Filters/CardNumberFilter.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Classes/Scanner Core/Scan Filters/CardNumberFilter.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Classes/Scanner Core/Scan Filters/ExpiryDateFilter.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Classes/Scanner Core/Scan Filters/ExpiryDateFilter.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Classes/Scanner Core/SingleFrameCardScanner.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Classes/Scanner Core/SingleFrameCardScanner.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Classes/Scanner Core/optimizer/CardDetailsScanOptimizer.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Classes/Scanner Core/optimizer/CardDetailsScanOptimizer.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Classes/SwiftCardScannerPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Classes/SwiftCardScannerPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/card_scanner.podspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/card_scanner.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/models/card_details.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/models/card_details.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/models/card_scan_options.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/models/card_scan_options.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/utils.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2gP4AwYiSv4DfYUiCoup44fsAdf" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/azizbek/StudioProjects/card-scanner-flutter/android",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a46389b-fab5-404f-8e8d-a7bbdeb7a241" name="Changes" comment="" />
+      <created>1715585738306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715585738306</updated>
+    </task>
+    <servers />
+  </component>
+</project>

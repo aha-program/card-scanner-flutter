@@ -6,6 +6,8 @@ class CardScanOptions {
   final bool scanExpiryDate;
   final bool scanCardHolderName;
 
+  final String scanTextTitle;
+
   /// This parameter is used so that some valid initial scan results containing false positives are dropped
   final int initialScansToDrop;
   final int validCardsToScanBeforeFinishingScan;
@@ -40,27 +42,32 @@ class CardScanOptions {
   ///defaults to [CardHolderNameScanPosition.belowCardNumber]
   final List<CardHolderNameScanPosition> possibleCardHolderNamePositions;
 
-  const CardScanOptions(
-      {this.scanExpiryDate = true,
-      this.scanCardHolderName = false,
-      this.initialScansToDrop = 1,
-      this.validCardsToScanBeforeFinishingScan = 6,
-      this.cardHolderNameBlackListedWords = const [],
-      this.considerPastDatesInExpiryDateScan = false,
-      this.maxCardHolderNameLength = 26,
-      this.enableLuhnCheck = true,
-      this.enableDebugLogs = false,
-      this.cardScannerTimeOut = 0,
-      this.possibleCardHolderNamePositions = const [CardHolderNameScanPosition.belowCardNumber]});
+  const CardScanOptions({
+    this.scanTextTitle = "Scan your card",
+    this.scanExpiryDate = true,
+    this.scanCardHolderName = false,
+    this.initialScansToDrop = 1,
+    this.validCardsToScanBeforeFinishingScan = 6,
+    this.cardHolderNameBlackListedWords = const [],
+    this.considerPastDatesInExpiryDateScan = false,
+    this.maxCardHolderNameLength = 26,
+    this.enableLuhnCheck = true,
+    this.enableDebugLogs = false,
+    this.cardScannerTimeOut = 0,
+    this.possibleCardHolderNamePositions = const [CardHolderNameScanPosition.belowCardNumber],
+  });
 
   Map<String, String> get map {
     final List<String> possibleNamePositions = [];
-    if (possibleCardHolderNamePositions.contains(CardHolderNameScanPosition.belowCardNumber))
+    if (possibleCardHolderNamePositions.contains(CardHolderNameScanPosition.belowCardNumber)) {
       possibleNamePositions.add('belowCardNumber');
-    if (possibleCardHolderNamePositions.contains(CardHolderNameScanPosition.aboveCardNumber))
+    }
+    if (possibleCardHolderNamePositions.contains(CardHolderNameScanPosition.aboveCardNumber)) {
       possibleNamePositions.add('aboveCardNumber');
+    }
 
     return {
+      'scanTextTitle': scanTextTitle,
       'scanExpiryDate': scanExpiryDate.toString(),
       'scanCardHolderName': scanCardHolderName.toString(),
       'initialScansToDrop': initialScansToDrop.toString(),
